@@ -13,4 +13,7 @@
     <string name="mulher">Mulher</string>
     <string name="n_o_bin_rio">Não-binário</string>
     <string name="outro">Outro</string>
+    <string name="cidade">Cidade:</string>
+    <string name="insira_sua_cidade">Insira sua cidade</string>
+    <string name="unidade">UF:</string>
 </resources>
