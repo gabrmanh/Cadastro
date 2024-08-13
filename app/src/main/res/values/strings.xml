@@ -9,4 +9,8 @@
     <string name="insira_seu_email">Insira seu email</string>
     <string name="ingressar_na_lista_de_emails">Ingressar na lista de emails?</string>
     <string name="genero">Gênero:</string>
+    <string name="homem">Homem</string>
+    <string name="mulher">Mulher</string>
+    <string name="n_o_bin_rio">Não-binário</string>
+    <string name="outro">Outro</string>
 </resources>
