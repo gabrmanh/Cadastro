@@ -4,17 +4,14 @@ import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.RadioButton
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.example.cadastro.databinding.ActivityMainBinding
 import com.example.cadastro.domain.Genero
 import com.example.cadastro.domain.UnidadeFederal
 import com.example.cadastro.domain.Usuario
 
 class MainActivity : AppCompatActivity() {
-    lateinit var amb: ActivityMainBinding
+    private lateinit var amb: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         val unidadesFederais = mutableListOf<String>()
         UnidadeFederal.entries.forEach { unidadesFederais.add(it.toString()) }
 
-        val adapter = ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, unidadesFederais)
+        val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, unidadesFederais)
         amb.unidadeSp.adapter = adapter
 
         val emailList = mutableListOf<String>()
