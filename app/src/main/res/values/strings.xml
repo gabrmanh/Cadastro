@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Cadastro</string>
     <string name="cadastro">Cadastro</string>
+    <string name="nome_completo">Nome completo:</string>
+    <string name="insira_seu_nome">Insira seu nome</string>
+    <string name="telefone">Telefone:</string>
+    <string name="insira_seu_telefone">Insira seu telefone</string>
+    <string name="email">Email:</string>
+    <string name="insira_seu_email">Insira seu email</string>
+    <string name="ingressar_na_lista_de_emails">Ingressar na lista de emails?</string>
+    <string name="genero">Gênero:</string>
 </resources>
