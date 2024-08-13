@@ -15,5 +15,21 @@ class MainActivity : AppCompatActivity() {
         amb = ActivityMainBinding.inflate(layoutInflater)
         setContentView(amb.root)
 
+        amb.limparBt.setOnClickListener {
+            limpar()
+        }
+
+        amb.salvarBt.setOnClickListener {
+
+        }
+    }
+
+    private fun limpar() {
+        amb.nomeEt.text.clear()
+        amb.telefoneEt.text.clear()
+        amb.emailEt.text.clear()
+        if (amb.emailCb.isChecked) amb.emailCb.toggle()
+        amb.generoRg.clearCheck()
+        amb.cidadeEt.text.clear()
     }
 }
