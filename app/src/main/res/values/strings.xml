@@ -16,4 +16,6 @@
     <string name="cidade">Cidade:</string>
     <string name="insira_sua_cidade">Insira sua cidade</string>
     <string name="unidade">UF:</string>
+    <string name="limpar">Limpar</string>
+    <string name="salvar">Salvar</string>
 </resources>

@@ -148,10 +148,31 @@
 
 
     <Spinner
-            android:id="@+id/unidadeS"
+            android:id="@+id/unidadeSp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:spinnerMode="dialog"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/unidadeTv" />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/unidadeSp">
+        <Button
+                android:id="@+id/limparBt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/limpar" />
+        <Button
+                android:id="@+id/salvarBt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/salvar" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
